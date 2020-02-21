@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/colorAccent"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+    <TextView
+        android:background="@color/colorPrimaryDark"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:padding="40dp"
+        android:text="@string/Questions"/>
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:orientation="vertical">
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/true_button"
+            android:id="@+id/truebutton"/>
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/false_button"
+            android:id="@+id/falsebutton"/>
+    </LinearLayout>
+</LinearLayout>
